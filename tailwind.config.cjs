@@ -6,6 +6,13 @@ module.exports = {
     "./islands/**/*.{tsx,ts}",
     "./components/**/*.{tsx,ts}",
   ],
-  theme: {},
+  theme: {
+    colors: {
+      primary: "#2b2d42",
+      secundary: "#8d99ae",
+      accent: "#ef233c",
+      almostwhite: "#edf2f4",
+    },
+  },
   plugins: [],
 };
