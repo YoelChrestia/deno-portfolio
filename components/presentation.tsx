@@ -1,8 +1,16 @@
 const Presentation = () => (
   <>
-    <div class="flex w-full mb-4">
+    <div class="flex w-full mb-4 justify-between">
       <img src="/Bulbasaur.webp" class="rounded-full max-w-[100px]" />
-      <div></div>
+      <div>
+        <a
+          href="/placeholder.pdf"
+          target="_blank"
+          class=" flex p-2 bg-almostwhite rounded"
+        >
+          <img src="/cv.svg" alt="CV" />
+        </a>
+      </div>
     </div>
     <h1 class="text-3xl font-semibold text-almostwhite mt-1">Chrestia Yoel</h1>
     <h2 class="text-2xl font-medium text-accent mt-1">
