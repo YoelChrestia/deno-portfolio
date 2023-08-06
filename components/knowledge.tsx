@@ -1,13 +1,14 @@
 const Knowledge = () => (
-  <div class="mt-8">
-    <h3 class="text-2xl font-medium text-almostwhite">
+
+  <>
+    <h3 class="text-2xl font-medium text-almostwhite mt-8 lg:mt-0 lg:flex lg:justify-end">
       Conocimientos
     </h3>
-
-    <h4 class="text-2xl font-medium text-accent mt-5">
+  <div>
+    <h4 class="text-2xl font-medium text-accent mt-5 lg:mt-0">
       Lorem
     </h4>
-    <div class="grid text-secundary grid-flow-row grid-cols-2 gap-3 mt-3">
+    <div class="grid text-secundary grid-flow-row grid-cols-2 gap-3 mt-3 lg:grid-cols-3">
       <span>javascript</span>
       <span>react</span>
       <span>java</span>
@@ -17,7 +18,7 @@ const Knowledge = () => (
     <h4 class="text-2xl font-medium text-accent mt-5">
       Lorem
     </h4>
-    <div class="grid text-secundary grid-flow-row grid-cols-2 gap-3 mt-3">
+    <div class="grid text-secundary grid-flow-row grid-cols-2 gap-3 mt-3 lg:grid-cols-3">
       <span>javascript</span>
       <span>react</span>
       <span>java</span>
@@ -26,7 +27,7 @@ const Knowledge = () => (
     <h4 class="text-2xl font-medium text-accent mt-5">
       Lorem
     </h4>
-    <div class="grid text-secundary grid-flow-row grid-cols-2 gap-3 mt-3">
+    <div class="grid text-secundary grid-flow-row grid-cols-2 gap-3 mt-3 lg:grid-cols-3">
       <span>javascript</span>
       <span>react</span>
       <span>java</span>
@@ -34,6 +35,7 @@ const Knowledge = () => (
       <span>java</span>
     </div>
   </div>
+  </>
 );
 
 export default Knowledge;

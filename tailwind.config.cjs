@@ -13,6 +13,14 @@ module.exports = {
       accent: "#ef233c",
       almostwhite: "#edf2f4",
     },
+    extend: {
+      gridTemplateColumns: {
+        desktop: "min-content auto",
+      },
+    },
+  },
+  gridTemplateColumns: {
+    desktop: "min-content auto",
   },
   plugins: [],
 };
