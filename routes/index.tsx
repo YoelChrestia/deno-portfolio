@@ -7,8 +7,8 @@ import Projects from "../components/projects.tsx";
 export default function Home() {
   return (
     <>
-      <main class="bg-primary px-3 py-5 lg:p-12">
-        <div class="m-auto flex flex-col max-w-3xl relative lg:grid lg:grid-cols-desktop lg:gap-16">
+      <main class="bg-primary px-3 py-5 lg:p-14">
+        <div class="m-auto flex flex-col max-w-4xl relative lg:grid lg:grid-cols-desktop lg:gap-16">
           <Presentation />
           <Experience />
           <Knowledge />

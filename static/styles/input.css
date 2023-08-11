@@ -15,6 +15,23 @@
     src: url("../fonts/AlegreyaSans-Bold.ttf");
 }
 
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    src: url("../fonts/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-weight: 800;
+    src: url("../fonts/Montserrat-Bold.ttf");
+}
+
 * {
     font-family: 'Alegreya Sans';
+}
+
+h1, h2, h3, h4{
+    font-family: 'Montserrat';
+    font-weight: bold;
 }
